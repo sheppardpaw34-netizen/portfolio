@@ -119,10 +119,77 @@
                             A modular dbt-core architecture built to parse complex Stripe subscription cycles, standardize billing intervals, and surface clean revenue tables for downstream semantic layers.
                         </p>
                     </div>
-                    <a href="https://github.com/sheppardpaw34-netizen" target="_blank" class="self-start lg:self-center bg-zinc-100 hover:bg-white text-zinc-950 text-xs font-semibold px-4 py-2.5 rounded transition-all">
+                    <a href="https://github.com/sheppardpaw34-netizen/subscriptions-revenue-mrr-dbt-pipeline" target="_blank" class="self-start lg:self-center bg-zinc-100 hover:bg-white text-zinc-950 text-xs font-semibold px-4 py-2.5 rounded transition-all">
                         View Repository &rarr;
                     </a>
+                    
+                <!-- Pipeline & Dashboard Artifacts Gallery -->
+                <div class="mt-10 pt-8 border-t border-zinc-800">
+                <h4 class="text-sm font-mono uppercase tracking-widest text-zinc-400 mb-6">Pipeline & Architecture Artifacts</h4>
+                
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                    
+                    <!-- Artifact 1: dbt Test Suites -->
+                    <div class="bg-zinc-950 rounded-lg border border-zinc-800 overflow-hidden group">
+                    <div class="p-3 bg-zinc-900 border-b border-zinc-800 flex items-center justify-between">
+                        <span class="text-xs font-mono text-zinc-300">01. Automated dbt Tests</span>
+                        <span class="text-xs font-mono text-emerald-400">PASSED (45/45)</span>
+                    </div>
+                    <div class="overflow-hidden aspect-video bg-zinc-900 flex items-center justify-center">
+                        <img src="images/dbt-test.png" alt="dbt Test Suites" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300">
+                    </div>
+                    <div class="p-4">
+                        <p class="text-xs text-zinc-400">Rigorous assertion testing for primary keys, uniqueness, relationships, and custom MRR logic.</p>
+                    </div>
+                    </div>
+
+                    <!-- Artifact 2: DAG View 1 -->
+                    <div class="bg-zinc-950 rounded-lg border border-zinc-800 overflow-hidden group">
+                    <div class="p-3 bg-zinc-900 border-b border-zinc-800 flex items-center justify-between">
+                        <span class="text-xs font-mono text-zinc-300">02. Lineage DAG (Staging to Marts)</span>
+                        <span class="text-xs font-mono text-zinc-500">dbt Core</span>
+                    </div>
+                    <div class="overflow-hidden aspect-video bg-zinc-900 flex items-center justify-center">
+                        <img src="images/dbt-dag.png" alt="dbt DAG Lineage" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300">
+                    </div>
+                    <div class="p-4">
+                        <p class="text-xs text-zinc-400">Modular Directed Acyclic Graph illustrating data transformation from raw Stripe events to revenue marts.</p>
+                    </div>
+                    </div>
+
+                    <!-- Artifact 3: DAG View 2 -->
+                    <div class="bg-zinc-950 rounded-lg border border-zinc-800 overflow-hidden group">
+                    <div class="p-3 bg-zinc-900 border-b border-zinc-800 flex items-center justify-between">
+                        <span class="text-xs font-mono text-zinc-300">03. Intermediate Transformations</span>
+                        <span class="text-xs font-mono text-zinc-500">Jinja & SQL</span>
+                    </div>
+                    <div class="overflow-hidden aspect-video bg-zinc-900 flex items-center justify-center">
+                        <img src="images/dbt-dag2.png" alt="Intermediate Transformations" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300">
+                    </div>
+                    <div class="p-4">
+                        <p class="text-xs text-zinc-400">Continuous daily subscription interval models handling tier upgrades, downgrades, and cancellations.</p>
+                    </div>
+                    </div>
+
+                    <!-- Artifact 4: Executive Dashboard -->
+                    <div class="bg-zinc-950 rounded-lg border border-zinc-800 overflow-hidden group">
+                    <div class="p-3 bg-zinc-900 border-b border-zinc-800 flex items-center justify-between">
+                        <span class="text-xs font-mono text-zinc-300">04. Executive Metrics Layer</span>
+                        <span class="text-xs font-mono text-zinc-500">Lightdash / BI</span>
+                    </div>
+                    <div class="overflow-hidden aspect-video bg-zinc-900 flex items-center justify-center">
+                        <img src="images/executive-dashboard.png" alt="Executive B2B SaaS Dashboard" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300">
+                    </div>
+                    <div class="p-4">
+                        <p class="text-xs text-zinc-400">Real-time MRR waterfalls, net revenue retention (NRR), and cohort lifetime value visualizations.</p>
+                    </div>
+                    </div>
+
                 </div>
+                </div>
+                    
+                </div>
+                
 
                 <div class="grid grid-cols-1 md:grid-cols-3 gap-6 pt-6 border-t border-zinc-800/80">
                     <div class="bg-zinc-950 p-5 rounded border border-zinc-900">
@@ -196,7 +263,7 @@
                 Targeted at Seed and Series A B2B SaaS founders looking for reliable revenue pipelines and clean financial visibility. Let's discuss your data architecture.
             </p>
             <div class="flex flex-col sm:flex-row justify-center items-center space-y-3 sm:space-y-0 sm:space-x-4">
-                <a href="mailto:zihad@example.com" class="w-full sm:w-auto bg-zinc-100 hover:bg-white text-zinc-950 font-semibold px-8 py-3 rounded text-sm transition-all shadow-sm">
+                <a href="mailto:sheppardpaw34@gmail.com" class="w-full sm:w-auto bg-zinc-100 hover:bg-white text-zinc-950 font-semibold px-8 py-3 rounded text-sm transition-all shadow-sm">
                     Email Zihad Rahman
                 </a>
                 <a href="https://github.com/sheppardpaw34-netizen" target="_blank" class="w-full sm:w-auto bg-zinc-900 hover:bg-zinc-800 text-zinc-300 border border-zinc-800 font-medium px-8 py-3 rounded text-sm transition-all">
